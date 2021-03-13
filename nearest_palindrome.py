@@ -15,4 +15,4 @@ def is_palindrome(n):
     return result
     
 if __name__ == "__main__":    
-    print(nearest_palindromic("17"))
+    print(nearest_palindromic("17")) # "17" --> changeable.

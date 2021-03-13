@@ -11,10 +11,8 @@ def nearest_palindromic(n):
 
 def is_palindrome(n):
     str_n = str(n)
-    if str_n == str_n[::-1]:
-        return True
-    else:
-        return False
-
+    result = True if str_n == str_n[::-1] else False
+    return result
+    
 if __name__ == "__main__":    
     print(nearest_palindromic("17"))

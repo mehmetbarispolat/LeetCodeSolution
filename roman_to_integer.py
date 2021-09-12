@@ -62,6 +62,8 @@ class Solution(object):
 
         return number
 
+### ------------ DELETE THESE BLOCKS(65-74) WHEN SEND TO LEET CODE ------------ ###
+
 if __name__ == "__main__":
     roman_list = ["III", "IV", "IX", "LVIII", "MCMXCIV"]
     s = Solution()

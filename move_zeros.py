@@ -39,7 +39,7 @@ class Solution(object):
         #     i += 1
 
 
-### ------------ DELETE THESE BLOCKS(30-33) WHEN SEND TO LEET CODE ------------ ###
+### ------------ DELETE THESE BLOCKS(43-50) WHEN SEND TO LEET CODE ------------ ###
 if __name__ == "__main__":
     nums_list = [
         [0,1,0,3,12],

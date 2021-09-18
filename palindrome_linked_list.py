@@ -43,7 +43,7 @@ class Solution(object):
         return is_palin
 
 
-### ------------ DELETE THESE BLOCKS(42-55) WHEN SEND TO LEET CODE ------------ ###
+### ------------ DELETE THESE BLOCKS(47-67) WHEN SEND TO LEET CODE ------------ ###
 if __name__ == "__main__":
     p7 = ListNode(1)
     p6 = ListNode(1,p7)
@@ -53,6 +53,15 @@ if __name__ == "__main__":
     p2 = ListNode(2,p3)
     p1 = ListNode(1,p2)
 
-    res = Solution.isPalindrome(p1)
-    
-    print(res)
+    fail_res = Solution.isPalindrome(p1)
+
+    o6 = ListNode(1)
+    o5 = ListNode(2,o6)
+    o4 = ListNode(3,o5)
+    o3 = ListNode(3,o4)
+    o2 = ListNode(2,o3)
+    o1 = ListNode(1,o2)
+
+    success_res = Solution.isPalindrome(o1)
+
+    print(f"Success Result: {success_res}\nFail Result: {fail_res}")

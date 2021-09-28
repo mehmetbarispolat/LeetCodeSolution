@@ -32,18 +32,19 @@ class Solution(object):
         :rtype: int
         """
         first_num = nums[0]
-                    
-        if not target in nums:
-            return -1
         
         if target < first_num:
             for idx in range(len(nums)-1, -1, -1):
                 if nums[idx] == target:
                     return idx
+                if nums[idx] < nums[idx-1]:
+                    break
         else:
             for idx, num in enumerate(nums):
                 if target == num:
                     return idx
+        
+        return -1
 
 
 ### ------------ DELETE THESE BLOCKS(49-59) WHEN SEND TO LEET CODE ------------ ###

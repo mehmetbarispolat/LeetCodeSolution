@@ -3,5 +3,5 @@ Top 75 Leet Code Questions Solutions
 
 Solved Algorithms:
 ```
-Count: 6
+Count: 8
 ```
